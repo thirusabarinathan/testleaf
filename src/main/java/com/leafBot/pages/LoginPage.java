@@ -12,7 +12,7 @@ public class LoginPage extends ProjectSpecificMethods{
 		PageFactory.initElements(driver, this);
 	}
 	@CacheLookup
-	@FindBy(id = "username1") WebElement eleUserName;
+	@FindBy(id = "username") WebElement eleUserName;
 	@FindBy(id="password") WebElement elePassword;
 	@FindBy(className = "decorativeSubmit") WebElement eleLogin;
 	
