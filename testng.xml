@@ -3,7 +3,7 @@
 <suite name="Suite">
   <test thread-count="5" name="Test">
     <classes>
-      <class name="com.leafBot.testcases.CL"/>
+      <class name="com.leafBot.testcases.TC001_LoginLogout"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

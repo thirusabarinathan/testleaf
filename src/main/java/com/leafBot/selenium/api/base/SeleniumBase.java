@@ -267,7 +267,7 @@ public class SeleniumBase extends Reporter implements Browser, Element{
 			}
 			driver.navigate().to(url);
 			driver.manage().window().maximize();
-			driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+			driver.manage().timeouts().implicitlyWait(3, TimeUnit.SECONDS);
 		} catch (Exception e) {
 			reportStep("The Browser Could not be Launched. Hence Failed", "fail");
 			throw new RuntimeException();
